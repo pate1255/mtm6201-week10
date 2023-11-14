@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>week-10-Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container-md">
+        <div class="row">
+          <div class="col-md-4 offset-md-4 py-5 text-center">
+            <h1>week 10 - CSS frameworks</h1>
+            <p class="h2">Learning Bootstrap</p>
+          </div> <!--closes header--->
+          <div class="col-md-6">
+            <ul class="list-unstyled text-bg-primary p-4">
+              <li>Apples</li>
+              <li>Berries
+                <ul>
+                  <li>Strawberry</li>
+                  <li>Blueberry</li>
+                  <li>Blackberry</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 pb-4">
+            <img src="https://placebear.com/800/600" alt="two bears on the rocks" class="img-fluid w-100">
+          </div> <!--closes list--->
+          <div class="col-md-12">
+            <table class="table table table-dark table-striped">
+              <thead>
+                <tr>
+                  <th>SKU</th>
+                  <th>Title</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HU6877</td>
+                  <td>Printed Mug</td>
+                  <td>$dollar; 15</td>
+                </tr>
+                <tr>
+                  <td>KJ9786</td>
+                  <td>Keyring</td>
+                  <td>$10</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">Members get 10% off</td>
+                </tr>
+              </tfoot>
+          </table>
+          <button type="button" class="btn btn-primary d-block mx-auto">Buy Now !</button>
+        </div>
+        </div>
+        
+    </div> <!--closes the container-md-->
+    <!-- bootstrap JS file -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
